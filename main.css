@@ -1,0 +1,152 @@
+/* CSS comment*/
+
+body {background-color: darkgrey;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	color: crimson;
+	font-size: 100px;
+	text-align: center;
+}
+
+h2 {
+display:none;
+}
+
+a {
+	color: crimson;
+}
+
+.mainHeader {
+	background-color: ivory;
+	color: crimson;
+	text-align: center;
+	padding: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navigationBar {
+	color: crimson;
+	background-color: ivory;
+	padding: 5px;
+	display: block;
+	position: relative;
+	list-style: none;
+	text-align: center;
+}
+
+.navigationBar li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mainContent {
+	background-color: ivory;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.mainContent button {
+	background-color:crimson;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid darkgrey;
+	display:inline-block;
+	cursor:pointer;
+	color:ivory;
+	font-family:arial;
+	font-size:17px;
+	padding:10px 50px;
+	text-decoration:none;
+}
+.mainContent button :hover {
+	background-color:ivory;
+	color: crimson;
+}
+.mainContent button :active {
+	position:relative;
+	top:1px;
+}
+
+.userMenu  button{
+	margin: auto;
+}
+
+.gameObject {
+	background-color: ivory;
+	margin: 0 auto;
+	width:610px;
+	height:460px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gameObject object {
+	background-color: ivory;
+	margin: 0 auto;
+	padding: 0;
+	width:650px;
+	height:500px;
+}
+
+.germanButtons {
+	margin-left:auto;
+	margin-right:auto;
+	width: 490px;
+}
+
+.germanButtons button {
+	background-color:crimson;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid darkgrey;
+	display:inline-block;
+	cursor:pointer;
+	color:ivory;
+	font-family:arial;
+	font-size:17px;
+	padding:10px;
+	width:45px;
+	text-decoration:none;
+}
+
+#hangmanGraphic {
+	height:200px;
+	width:200px;
+	margin-left:200px;
+	margin-bottom:10px;
+}
+
+#hangmanPuzzleWord{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+#hangmanHintWord{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	font-style:italic;
+}
+
+#memoryCards{
+	margin-left: 30px;
+	border: 0px;
+}
+
+#memoryCards img{
+    margin:10px;
+	max-height:90px;
+	max-width:90px;
+}
