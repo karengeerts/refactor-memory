@@ -193,26 +193,7 @@ while (shuffle20 === shuffle1 || shuffle20 === shuffle2 || shuffle20 === shuffle
 var cardShuffle20 = shuffleArray[shuffle20];
 
 //Variables to activate card onclick functions.
-var click1 = 1;
-var click2 = 1;
-var click3 = 1;
-var click4 = 1;
-var click5 = 1;
-var click6 = 1;
-var click7 = 1;
-var click8 = 1;
-var click9 = 1;
-var click10 = 1;
-var click11 = 1;
-var click12 = 1;
-var click13 = 1;
-var click14 = 1;
-var click15 = 1;
-var click16 = 1;
-var click17 = 1;
-var click18 = 1;
-var click19 = 1;
-var click20 = 1;
+var click1 = click2 = click3 = click4 = click5 = click6 = click7 = click8 = click9 = click10 = click11 = click12 = click13 = click14 = click15 = click16 = click17 = click18 =click19 =click20 =1;
 
 //Variables to handle card swapping and comparing.
 var puzzle = "plain_card.png";
