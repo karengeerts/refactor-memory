@@ -5,174 +5,132 @@ var cardChoices = [["pink.png","pink_1.png"],["brown.png","brown_1.png"],["purpl
 
 //Variable to allow random selection of dictionary images.
 var cardLength = cardChoices.length;
-console.log(cardLength);
 
 //Variables to select random cards from dictionary images.
 var cardOption1 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption1);
 var cardSelected1a = cardChoices[cardOption1][0];
-console.log(cardSelected1a);
 var cardSelected1b = cardChoices[cardOption1][languageSetting];
-console.log(cardSelected1b);
 
 var cardOption2 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption2);
 while (cardOption2 === cardOption1) {
 cardOption2 = (Math.floor(Math.random() * cardLength));}
 var cardSelected2a = cardChoices[cardOption2][0];
-console.log(cardSelected2a);
 var cardSelected2b = cardChoices[cardOption2][languageSetting];
-console.log(cardSelected2b);
 
 var cardOption3 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption3);
 while (cardOption3 === cardOption1 || cardOption3 === cardOption2) {
 cardOption3 = (Math.floor(Math.random() * cardLength));}
 var cardSelected3a = cardChoices[cardOption3][0];
-console.log(cardSelected3a);
 var cardSelected3b = cardChoices[cardOption3][languageSetting];
-console.log(cardSelected3b);
 
 var cardOption4 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption4);
 while (cardOption4 === cardOption1 || cardOption4 === cardOption2 || cardOption4 === cardOption3) {
 cardOption4 = (Math.floor(Math.random() * cardLength));}
 var cardSelected4a = cardChoices[cardOption4][0];
-console.log(cardSelected4a);
 var cardSelected4b = cardChoices[cardOption4][languageSetting];
-console.log(cardSelected4b);
 
 var cardOption5 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption5);
 while (cardOption5 === cardOption1 || cardOption5 === cardOption2 || cardOption5 === cardOption3 || cardOption5 === cardOption4) {
 cardOption5 = (Math.floor(Math.random() * cardLength));}
 var cardSelected5a = cardChoices[cardOption5][0];
-console.log(cardSelected5a);
 var cardSelected5b = cardChoices[cardOption5][languageSetting];
-console.log(cardSelected5b);
 
 var cardOption6 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption6);
 while (cardOption6 === cardOption1 || cardOption6 === cardOption2 || cardOption6 === cardOption3 || cardOption6 === cardOption4 || cardOption6 === cardOption5) {
 cardOption6 = (Math.floor(Math.random() * cardLength));
 }
 var cardSelected6a = cardChoices[cardOption6][0];
-console.log(cardSelected6a);
 var cardSelected6b = cardChoices[cardOption6][languageSetting];
-console.log(cardSelected6b);
 
 var cardOption7 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption7);
 while (cardOption7 === cardOption1 || cardOption7 === cardOption2 || cardOption7 === cardOption3 || cardOption7 === cardOption4 || cardOption7 === cardOption5 || cardOption7 === cardOption6) {
 cardOption7 = (Math.floor(Math.random() * cardLength));
 }
 var cardSelected7a = cardChoices[cardOption7][0];
-console.log(cardSelected7a);
 var cardSelected7b = cardChoices[cardOption7][languageSetting];
-console.log(cardSelected7b);
 
 var cardOption8 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption8);
 while (cardOption8 === cardOption1 || cardOption8 === cardOption2 || cardOption8 === cardOption3 || cardOption8 === cardOption4 || cardOption8 === cardOption5 || cardOption8 === cardOption6 || cardOption8 === cardOption7) {
 cardOption8 = (Math.floor(Math.random() * cardLength));
 }
 var cardSelected8a = cardChoices[cardOption8][0];
-console.log(cardSelected8a);
 var cardSelected8b = cardChoices[cardOption8][languageSetting];
-console.log(cardSelected8b);
 
 var cardOption9 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption9);
 while (cardOption9 === cardOption1 || cardOption9 === cardOption2 || cardOption9 === cardOption3 || cardOption9 === cardOption4 || cardOption9 === cardOption5 || cardOption9 === cardOption6 || cardOption9 === cardOption7 || cardOption9 === cardOption8) {
 cardOption9 = (Math.floor(Math.random() * cardLength));
 }
 var cardSelected9a = cardChoices[cardOption9][0];
-console.log(cardSelected9a);
 var cardSelected9b = cardChoices[cardOption9][languageSetting];
-console.log(cardSelected9b);
 
 var cardOption10 = (Math.floor(Math.random() * cardLength));
-console.log(cardOption10);
 while (cardOption10 === cardOption1 || cardOption10 === cardOption2 || cardOption10 === cardOption3 || cardOption10 === cardOption4 || cardOption10 === cardOption5 || cardOption10 === cardOption6 || cardOption10 === cardOption7 || cardOption10 === cardOption8 || cardOption10 === cardOption9) {
 cardOption10 = (Math.floor(Math.random() * cardLength));
 }
 var cardSelected10a = cardChoices[cardOption10][0];
-console.log(cardSelected10a);
 var cardSelected10b = cardChoices[cardOption10][languageSetting];
-console.log(cardSelected10b);
 
 //Array to take selected cards for shuffling.
 var shuffleArray = [cardSelected1a, cardSelected1b, cardSelected2a, cardSelected2b, cardSelected3a, cardSelected3b, cardSelected4a, cardSelected4b, cardSelected5a, cardSelected5b, cardSelected6a, cardSelected6b, cardSelected7a, cardSelected7b, cardSelected8a, cardSelected8b, cardSelected9a, cardSelected9b, cardSelected10a, cardSelected10b];
 var shuffleLength = shuffleArray.length;
-console.log(shuffleLength);
 
 //Variables to shuffle cards on the game board.
 var shuffle1 = (Math.floor(Math.random() * shuffleLength));
 var cardShuffle1 = shuffleArray[shuffle1];
-console.log(cardShuffle1);
 
 var shuffle2 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle2 === shuffle1) {
 	shuffle2 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle2 = shuffleArray[shuffle2];
-console.log(cardShuffle2);
 
 var shuffle3 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle3 === shuffle1 || shuffle3 === shuffle2) {
 	shuffle3 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle3 = shuffleArray[shuffle3];
-console.log(cardShuffle3);
 
 var shuffle4 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle4 === shuffle1 || shuffle4 === shuffle2 || shuffle4 === shuffle3) {
 	shuffle4 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle4 = shuffleArray[shuffle4];
-console.log(cardShuffle4);
 
 var shuffle5 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle5 === shuffle1 || shuffle5 === shuffle2 || shuffle5 === shuffle3 || shuffle5 === shuffle4) {
 	shuffle5 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle5 = shuffleArray[shuffle5];
-console.log(cardShuffle5);
 
 var shuffle6 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle6 === shuffle1 || shuffle6 === shuffle2 || shuffle6 === shuffle3 || shuffle6 === shuffle4 || shuffle6 === shuffle5) {
 	shuffle6 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle6 = shuffleArray[shuffle6];
-console.log(cardShuffle6);
 
 var shuffle7 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle7 === shuffle1 || shuffle7 === shuffle2 || shuffle7 === shuffle3 || shuffle7 === shuffle4 || shuffle7 === shuffle5 || shuffle7 === shuffle6) {
 	shuffle7 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle7 = shuffleArray[shuffle7];
-console.log(cardShuffle7);
 
 var shuffle8 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle8 === shuffle1 || shuffle8 === shuffle2 || shuffle8 === shuffle3 || shuffle8 === shuffle4 || shuffle8 === shuffle5 || shuffle8 === shuffle6 || shuffle8 === shuffle7) {
 	shuffle8 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle8 = shuffleArray[shuffle8];
-console.log(cardShuffle8);
 
 var shuffle9 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle9 === shuffle1 || shuffle9 === shuffle2 || shuffle9 === shuffle3 || shuffle9 === shuffle4 || shuffle9 === shuffle5 || shuffle9 === shuffle6 || shuffle9 === shuffle7 || shuffle9 === shuffle8) {
 	shuffle9 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle9 = shuffleArray[shuffle9];
-console.log(cardShuffle9);
 
 var shuffle10 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle10 === shuffle1 || shuffle10 === shuffle2 || shuffle10 === shuffle3 || shuffle10 === shuffle4 || shuffle10 === shuffle5 || shuffle10 === shuffle6 || shuffle10 === shuffle7 || shuffle10 === shuffle8 || shuffle10 === shuffle9) {
 	shuffle10 = (Math.floor(Math.random() * shuffleLength));
 }
 var cardShuffle10 = shuffleArray[shuffle10];
-console.log(cardShuffle10);
 
 var shuffle11 = (Math.floor(Math.random() * shuffleLength));
 while (shuffle11 === shuffle1 || shuffle11 === shuffle2 || shuffle11 === shuffle3 || shuffle11 === shuffle4 || shuffle11 === shuffle5 || shuffle11 === shuffle6 || shuffle11 === shuffle7 || shuffle11 === shuffle8 || shuffle11 === shuffle9 || shuffle11 === shuffle10) {
