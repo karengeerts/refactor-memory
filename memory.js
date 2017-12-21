@@ -7,66 +7,35 @@ var cardChoices = [["pink.png","pink_1.png"],["brown.png","brown_1.png"],["purpl
 var cardLength = cardChoices.length;
 
 //Variables to select random cards from dictionary images.
-var cardOption1 = (Math.floor(Math.random() * cardLength));
+var cardOption1 = cardOption2 = cardOption3 = cardOption4 = cardOption5 = cardOption6 = cardOption7 = cardOption8 = cardOption9 = cardOption10 = (Math.floor(Math.random() * cardLength));
+
 var cardSelected1a = cardChoices[cardOption1][0];
 var cardSelected1b = cardChoices[cardOption1][languageSetting];
 
-var cardOption2 = (Math.floor(Math.random() * cardLength));
-while (cardOption2 === cardOption1) {
-cardOption2 = (Math.floor(Math.random() * cardLength));}
 var cardSelected2a = cardChoices[cardOption2][0];
 var cardSelected2b = cardChoices[cardOption2][languageSetting];
 
-var cardOption3 = (Math.floor(Math.random() * cardLength));
-while (cardOption3 === cardOption1 || cardOption3 === cardOption2) {
-cardOption3 = (Math.floor(Math.random() * cardLength));}
 var cardSelected3a = cardChoices[cardOption3][0];
 var cardSelected3b = cardChoices[cardOption3][languageSetting];
 
-var cardOption4 = (Math.floor(Math.random() * cardLength));
-while (cardOption4 === cardOption1 || cardOption4 === cardOption2 || cardOption4 === cardOption3) {
-cardOption4 = (Math.floor(Math.random() * cardLength));}
 var cardSelected4a = cardChoices[cardOption4][0];
 var cardSelected4b = cardChoices[cardOption4][languageSetting];
 
-var cardOption5 = (Math.floor(Math.random() * cardLength));
-while (cardOption5 === cardOption1 || cardOption5 === cardOption2 || cardOption5 === cardOption3 || cardOption5 === cardOption4) {
-cardOption5 = (Math.floor(Math.random() * cardLength));}
 var cardSelected5a = cardChoices[cardOption5][0];
 var cardSelected5b = cardChoices[cardOption5][languageSetting];
 
-var cardOption6 = (Math.floor(Math.random() * cardLength));
-while (cardOption6 === cardOption1 || cardOption6 === cardOption2 || cardOption6 === cardOption3 || cardOption6 === cardOption4 || cardOption6 === cardOption5) {
-cardOption6 = (Math.floor(Math.random() * cardLength));
-}
 var cardSelected6a = cardChoices[cardOption6][0];
 var cardSelected6b = cardChoices[cardOption6][languageSetting];
 
-var cardOption7 = (Math.floor(Math.random() * cardLength));
-while (cardOption7 === cardOption1 || cardOption7 === cardOption2 || cardOption7 === cardOption3 || cardOption7 === cardOption4 || cardOption7 === cardOption5 || cardOption7 === cardOption6) {
-cardOption7 = (Math.floor(Math.random() * cardLength));
-}
 var cardSelected7a = cardChoices[cardOption7][0];
 var cardSelected7b = cardChoices[cardOption7][languageSetting];
 
-var cardOption8 = (Math.floor(Math.random() * cardLength));
-while (cardOption8 === cardOption1 || cardOption8 === cardOption2 || cardOption8 === cardOption3 || cardOption8 === cardOption4 || cardOption8 === cardOption5 || cardOption8 === cardOption6 || cardOption8 === cardOption7) {
-cardOption8 = (Math.floor(Math.random() * cardLength));
-}
 var cardSelected8a = cardChoices[cardOption8][0];
 var cardSelected8b = cardChoices[cardOption8][languageSetting];
 
-var cardOption9 = (Math.floor(Math.random() * cardLength));
-while (cardOption9 === cardOption1 || cardOption9 === cardOption2 || cardOption9 === cardOption3 || cardOption9 === cardOption4 || cardOption9 === cardOption5 || cardOption9 === cardOption6 || cardOption9 === cardOption7 || cardOption9 === cardOption8) {
-cardOption9 = (Math.floor(Math.random() * cardLength));
-}
 var cardSelected9a = cardChoices[cardOption9][0];
 var cardSelected9b = cardChoices[cardOption9][languageSetting];
 
-var cardOption10 = (Math.floor(Math.random() * cardLength));
-while (cardOption10 === cardOption1 || cardOption10 === cardOption2 || cardOption10 === cardOption3 || cardOption10 === cardOption4 || cardOption10 === cardOption5 || cardOption10 === cardOption6 || cardOption10 === cardOption7 || cardOption10 === cardOption8 || cardOption10 === cardOption9) {
-cardOption10 = (Math.floor(Math.random() * cardLength));
-}
 var cardSelected10a = cardChoices[cardOption10][0];
 var cardSelected10b = cardChoices[cardOption10][languageSetting];
 
